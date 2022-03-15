@@ -27,7 +27,7 @@ $categoryResult= mysqli_query($conn,$categoryQuery);
    <div class="row">
       <?php include('include/left-nav.php');?>
     <div class="col-8">
-          <form method="POST" action="#" enctype="multipart/form-data">
+          <form method="POST" action="db/add-post.php" enctype="multipart/form-data">
 
             <div class="mb-3">
               <label for="" class="form-label">Title</label>
